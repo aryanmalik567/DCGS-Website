@@ -14,6 +14,16 @@ function main() {
         $('#goHere').scrollView();
     });
 
+    $('#home').click(function (event) {
+        event.preventDefault();
+        $('#goHome').scrollView();
+    });
+
+    $('#home').click(function (event) {
+        event.preventDefault();
+        $('#goHome').scrollView();
+    });
+
     $('.submenu').hide();
     $('.MoreButton').click(function () {
         $('.MoreButton').show();
