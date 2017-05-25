@@ -1,0 +1,105 @@
+﻿body {
+    background-color:#222;
+    margin:0 auto;
+}
+
+.navBtn{
+    margin:12px;
+    margin-top:20px;
+    background:#222;
+    border:none;
+    color:#eee;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:2px;
+    padding-bottom:2px;
+    float:right;
+}
+
+
+#logo {
+    height: 50px;
+    width: 50px;
+    position:relative;
+    bottom:5px;
+}
+
+.jumbotron {    
+    position:relative;
+    height: 700px;
+    background-size: cover;
+    background-image: url('https://trello-attachments.s3.amazonaws.com/57e59b42235f3a5da73cd88b/586e80e671dbdd336a3e39d2/c7f50becafaa1ee5a7dbca4fc09579ab/dcgs_jumbotron.jpg');
+}
+
+.jumbotron h1 {
+    position:relative;
+    top:210px;
+}
+
+.jumbotron h2 {
+    position:relative;
+    top:210px;
+    left:0px;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    color: #ecf0f1;
+}
+
+.About h2 {
+    padding-left:10px;
+}
+
+.About p {
+    padding-left:80px;
+    padding-right:80px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ecf0f1;
+}
+
+.images {
+    padding-left:80px;
+    width:30%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("http://challoners.org/pages/overview/innovation/605f11f8-digital-natives-jonny-carr-year-9.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img {
+    width:21.5%;
+}
+
+#img2 {
+    width:38.5%;
+}
+
+.MoreButton {
+  padding: 0.4em 0.7em;
+  background-color: whitesmoke;
+  width: 4em;
+  color: #c0392b;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  bottom:20px;
+  left: 100px;
+  cursor: pointer;
+  
+}
+
+.active {
+    background-color: #c0392b;
+    color: whitesmoke;
+}
+
