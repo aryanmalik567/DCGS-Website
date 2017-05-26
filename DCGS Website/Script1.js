@@ -24,6 +24,16 @@ function main() {
         $('#goHome').scrollView();
     });
 
+    $('#sports').click(function (event) {
+        event.preventDefault();
+        $('#goSports').scrollView();
+    });
+
+    $('#about').click(function (event) {
+        event.preventDefault();
+        $('#goAbout').scrollView();
+    });
+
     $('.submenu').hide();
     $('.MoreButton').click(function () {
         $('.MoreButton').show();
